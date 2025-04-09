@@ -1,7 +1,7 @@
 %define module time-machine
 %define oname time_machine
 # disable test for abf
-%bcond_without test
+%bcond_with test
 
 Name:		python-time-machine
 Version:	2.16.0
