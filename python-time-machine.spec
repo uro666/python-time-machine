@@ -1,5 +1,6 @@
 %define module time-machine
 %define oname time_machine
+# disable test for abf
 %bcond_without test
 
 Name:		python-time-machine
